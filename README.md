@@ -9,8 +9,10 @@
 -	**언어**: C#
 -	**플랫폼**: PC (Standalone)
 
-
 ## 📌 주요 구현 기능
+
+https://github.com/user-attachments/assets/f6e0430f-9f14-4893-b0bb-4c217fcffc6f
+
 -	👤 **First Person Character**: 걷기 및 조준 가능한 FPS 시점 구현
 -	🗺 **맵 구성**: SampleScene 기반 지형 및 환경 배치
 -	🤖 **AI 적 컨트롤러**:
