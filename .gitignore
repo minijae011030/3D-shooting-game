@@ -1,0 +1,43 @@
+# Unity 기본
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Unity 설정 파일 중 사용자별 설정
+UserSettings/
+
+# Visual Studio/JetBrains 관련
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+
+# VS Code 관련
+.vscode/
+
+# macOS 시스템 파일
+.DS_Store
+
+# OS별 임시 파일
+*.swp
+*.bak
+*.old
+
+# Crashlytics/Analytics/Etc
+*.log
+
+# 기타 Unity Generated Cache
+MemoryCaptures/
