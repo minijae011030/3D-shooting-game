@@ -1,31 +1,32 @@
 # 🎮 3D Shooting Game (2023.2)
 
-**Unity 기반의 FPS 슈팅 게임 프로젝트입니다.**
+**An FPS shooting game developed with Unity.**
 
-세종대학교 강민재 — 2023년 2학기 가상현실 과목 개인 프로젝트
+Personal project by **Minjae Kang (Sejong University)** — *Virtual Reality Course, Fall 2023*
 
-## 🛠 사용 기술 및 환경
-- **Unity 버전**: 2021.3.21f1
--	**언어**: C#
--	**플랫폼**: PC (Standalone)
+## 🛠 Tech Stack & Environment
+- **Unity Version:** 2021.3.21f1  
+- **Language:** C#  
+- **Platform:** PC (Standalone)
 
-## 📌 주요 구현 기능
+## 📌 Main Features
 
-https://github.com/user-attachments/assets/f6e0430f-9f14-4893-b0bb-4c217fcffc6f
+https://github.com/user-attachments/assets/f6e0430f-9f14-4893-b0bb-4c217fcffc6f  
 
--	👤 **First Person Character**: 걷기 및 조준 가능한 FPS 시점 구현
--	🗺 **맵 구성**: SampleScene 기반 지형 및 환경 배치
--	🤖 **AI 적 컨트롤러**:
-    -	NavMesh 내 무작위 이동하는 타겟을 따라다님
-    -	총알 피격 시 비활성화 후 일정 시간 뒤 재활성화
--	🎯 **조준점**: 화면 중앙 고정 초록색 크로스헤어
--	🔫 **총기 시스템**:
-    -	조준점 방향으로 총알 발사
-    - 장애물 반사, 총구 이펙트, 사운드 효과 포함
--	🧠 **점수 시스템**:
-    -	적 처치 시 Score 증가
-    -	화면 고정 점수 UI 및 승패 조건 출력
--	🕹 **씬 전환 / UI 시스템**:
-    -	버튼 및 키보드 입력으로 씬 이동
-    -	상황별 UI 표시, 1분 카운트다운 후 게임 종료
+- 👤 **First-Person Character:** Implemented a walkable and aimable FPS perspective.  
+- 🗺 **Map Design:** Built environments based on the default *SampleScene*.  
+- 🤖 **AI Enemy Controller:**  
+  - Enemies navigate randomly using NavMesh and chase the player.  
+  - Deactivate upon being hit by a bullet and respawn after a short delay.  
+- 🎯 **Crosshair:** Fixed green crosshair at the center of the screen.  
+- 🔫 **Weapon System:**  
+  - Bullets are fired in the direction of the crosshair.  
+  - Includes collision effects, muzzle flash, and sound effects.  
+- 🧠 **Scoring System:**  
+  - Score increases when an enemy is defeated.  
+  - Displays real-time score and win/lose conditions on the screen.  
+- 🕹 **Scene & UI System:**  
+  - Scene transitions triggered by buttons or keyboard input.  
+  - Dynamic UI feedback and a 1-minute countdown timer before game over.  
+
 
